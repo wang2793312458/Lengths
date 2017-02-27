@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="kongxian">#ff2a9400</color>
+    <color name="fuwu">#ffff7200</color>
+    <color name="haoping">#ffff0c00</color>
+    <color name="zhongpin">#ffe9a400</color>
+    <color name="chapin">#ff000000</color>
+    <color name="red">#ff990000</color>
+    <color name="green">#ff009900</color>
+    <color name="blue">#ff000099</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="gold">#ffb89766</color>
+
+    <color name="light_grey">#aaaaaa</color>
+    <color name="light_blue">#e2eefb</color>
+    <color name="drak_blue">#4f89cc</color>
+    <color name="light_gray">#9D9D9D</color>
+    <color name="project_bg">#f0f0f0</color>
+
+    <drawable name="row_background_normal">#fff</drawable>
+    <drawable name="row_background_pressed">#4f89cc</drawable>
+</resources>

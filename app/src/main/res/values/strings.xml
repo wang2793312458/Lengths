@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Distance</string>
+    <string name="gongli">公里</string>
+    <string name="current_drive_expense">当前费用</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/project_bg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="14dip"
+        android:layout_weight="1"
+        android:background="@drawable/driverstatus_bg"
+        android:orientation="vertical"
+        android:padding="1px">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/light_blue"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/text_black_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dip"
+                android:text="当前行驶"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@color/light_grey"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_drive_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0.0"
+                android:textColor="#4F88CD"
+                android:textSize="100dip"/>
+
+            <TextView
+                style="@style/text_black_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tv_drive_distance"
+                android:layout_alignBottom="@+id/tv_drive_distance"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/tv_drive_distance"
+                android:gravity="center_vertical"
+                android:text="@string/gongli"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="@color/light_grey"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:background="@color/light_blue"
+            android:gravity="center_horizontal|center">
+
+            <TextView
+                android:id="@+id/longitude_Latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#EE0000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_start_drive"
+            android:layout_width="match_parent"
+            android:layout_height="45dip"
+            android:background="@drawable/btn_noselect"
+            android:onClick="onClick"
+            android:text="开始计算"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sdsdsdsdsdsd"/>
+</LinearLayout>
